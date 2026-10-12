@@ -8,3 +8,5 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- Data is client-only in localStorage via src/lib/tt/store.tsx; solver logic lives in src/lib/tt/solver.ts with tests — keeps the app backend-free as requested.
